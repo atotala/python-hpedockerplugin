@@ -76,5 +76,5 @@ class Configuration(object):
         except cfg.NoSuchOptError:
             return None
 
-    def __getattr__(self, value):
+    def __getattr__(self, value) :
         return getattr(self.local_conf, value)
