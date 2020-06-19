@@ -7,6 +7,6 @@ def hello():
     data = request.data
     return  
 
-print "EDIT IN THE FILE"
+print "CHALGA BHAI AB TO"
 if __name__ == '__main__':
 app.run(host='0.0.0.0')
