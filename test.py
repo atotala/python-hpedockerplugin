@@ -7,6 +7,6 @@ def hello():
     data = request.data
     return  
 
-print "I AB TO"
+print "I ME MYSELTO"
 if __name__ == '__main__':
 app.run(host='0.0.0.0')
