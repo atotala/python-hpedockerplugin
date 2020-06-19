@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route('/')
 def hello():
     data = request.data
-    return  
+    return  abcd
 
 print "I ME MYSELTO"
 if __name__ == '__main__':
